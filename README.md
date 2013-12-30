@@ -29,6 +29,11 @@ I have included a copy of my `zshrc` in this repo. You can copy it into your hom
  cp zshrc ~/.zshrc
 ```
 
+With this `zshrc`, you could create gitignore files like this in your repository.
+```bashrc
+gi linux,python >> .gitignore
+
+```
 You can choose a theme from `~/.oh-my-zsh/themes` and update in the `~/.zshrc` 
 
 ##Setting up vim
