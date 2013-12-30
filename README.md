@@ -84,3 +84,13 @@ Copy pythonrc file to your home directory
 ```bash
  cp pythonrc ~/.pythonrc 
 ```
+
+##Tweaking git 
+Legit is a complementary command-line interface for Git, optimized for workflow simplicity. It is heavily inspired by GitHub for Mac.
+
+Install legit
+-------------
+```bash
+sudo apt-get install python-pip 
+pip install legit
+```
