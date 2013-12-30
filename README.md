@@ -95,6 +95,7 @@ Legit is a complementary command-line interface for Git, optimized for workflow 
 
 Install legit
 -------------
+Assuming you have already install git. You can read more about leget [here](http://www.git-legit.org/)
 ```bash
 sudo apt-get install python-pip 
 pip install legit
