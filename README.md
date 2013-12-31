@@ -17,7 +17,7 @@ Oh-my-zsh
 ```
  To install custom plugins for ZSH
 ```bash
-➜  git submodule init --update
+➜  git submodule update --init
 ```
 I have included a copy of my `zshrc` in this repo. You can copy it into your home folder
 ```zsh
