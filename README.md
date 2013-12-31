@@ -1,14 +1,14 @@
 Tweaking Ubuntu for programming
 ===============================
-These are the steps required to tweak Ubuntu for making a better programming environment
+These are the steps required to tweak Ubuntu for making a better programming environment. Assuming you have already install `git`.
 
 ##Setting up zsh
 
 Install zsh
 -----------
 Zsh is a shell designed for interactive use. It can be used as an alternative of default `bash`. 
-```zsh
-➜  sudo apt-get install zsh
+```bash
+$  sudo apt-get install zsh
 ```
 
 Oh-my-zsh
@@ -16,12 +16,12 @@ Oh-my-zsh
 
 `oh-my-zsh` is an open source, community-driven framework for managing your ZSH configuration.
 
- ```zsh
- ➜ curl -L https://raw.github.com/arvindsraj/oh-my-zsh/master/tools/install.sh | sh
- ```
+```bash
+ $ curl -L https://raw.github.com/arvindsraj/oh-my-zsh/master/tools/install.sh | sh
+```
  
  To install custom plugins for ZSH
-```zsh
+```bash
 ➜  git submodule init --update
 ```
 
@@ -33,8 +33,8 @@ I have included a copy of my `zshrc` in this repo. You can copy it into your hom
 With this `zshrc`, you could create gitignore files like this in your repository.
 ```zsh
 ➜ gi linux,python >> .gitignore
-
 ```
+
 You can choose a theme from `~/.oh-my-zsh/themes` and update in the `~/.zshrc` 
 
 ##Setting up vim
@@ -94,9 +94,7 @@ Copy pythonrc file to your home directory
 ##Tweaking git 
 Legit is a complementary command-line interface for Git, optimized for workflow simplicity. It is heavily inspired by GitHub for Mac.
 
-Install legit
--------------
-Assuming you have already install git. You can read more about legit [here](http://www.git-legit.org/)
+You can read more about legit [here](http://www.git-legit.org/)
 ```zsh
 ➜  sudo apt-get install python-pip 
 ➜  pip install legit
