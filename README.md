@@ -23,6 +23,10 @@ I have included a copy of my `zshrc` in this repo. You can copy it into your hom
 ```zsh
 ➜  cp zshrc ~/.zshrc
 ```
+I have made litte changes in arvindsrajtheme.zsh, if you don't like the default one, you could use my modified one:
+```zsh
+➜  cp arvindsraj.zsh-theme ~/.oh-my-zsh/themes/   
+```
 With this `zshrc`, you could create gitignore files like this in your repository.
 ```zsh
 ➜ gi linux,python >> .gitignore
