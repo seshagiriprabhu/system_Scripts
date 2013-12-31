@@ -8,6 +8,7 @@ zsh is a shell designed for interactive use. It can be used as an alternative of
 ```bash
 $  sudo apt-get install zsh
 ```
+After installation, you could make `/usr/bin/zsh` as your default shell of terminal (make changes in the profile of your terminal)
 Oh-my-zsh
 ---------
 `oh-my-zsh` is an open source, community-driven framework for managing your ZSH configuration. Thanks to [Arvind](https://twitter.com/arvindsraj) for creating a custom zsh theme.
