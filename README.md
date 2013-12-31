@@ -6,7 +6,7 @@ These are the steps required to tweak Ubuntu for making a better programming env
 
 Install zsh
 -----------
-Zsh is a shell designed for interactive use. It can be used as an alternative of default `bash`. 
+zsh is a shell designed for interactive use. It can be used as an alternative of default `bash`. 
 ```bash
 $  sudo apt-get install zsh
 ```
@@ -14,7 +14,7 @@ $  sudo apt-get install zsh
 Oh-my-zsh
 ---------
 
-`oh-my-zsh` is an open source, community-driven framework for managing your ZSH configuration.
+`oh-my-zsh` is an open source, community-driven framework for managing your ZSH configuration. Thanks to [Arvind](https://twitter.com/arvindsraj) for creating a custom zsh theme.
 
 ```bash
  $ curl -L https://raw.github.com/arvindsraj/oh-my-zsh/master/tools/install.sh | sh
@@ -41,58 +41,55 @@ You can choose a theme from `~/.oh-my-zsh/themes` and update in the `~/.zshrc`
 
 Install vim
 -----------
-
-Lets install the latest version of vim 
+Lets install the latest version of `vim`.
 
 ```zsh
 ➜  sudo add-apt-repository ppa:fcwu-tw/ppa
 ➜  sudo apt-get update
 ➜  sudo apt-get install vim
 ```
-
-Copy the `vimrc` file from this repo to home folder
-```zsh
-➜  cp vimrc ~/.vimrc
-```
-open `vim` and type `(y)` to install the plugins mentioned in the `vimrc`.
-
-Setup Neobundle
----------------
-
+Setting up Neobundle
+--------------------
+NeoBundle is a Vim plugin manager.
 ```zsh
 ➜  mkdir -p ~/.vim/bundle
 ➜  cd ~/.vim/bundle
 ➜  git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 ```
 
+Copy the `vimrc` file from this repo to home folder.
+```zsh
+➜  cp vimrc ~/.vimrc
+```
+open `vim` and type `y` to install the plugins mentioned in the `vimrc`.
+
 Install YouCompleteMe 
 ---------------------
-Its an autocompleter for vim
-
-Compiling YCM with semantic support for C-family languages:
+An autocompleter for vim. Lets compile it.
 ```zsh
 ➜  cd ~/.vim/bundle/YouCompleteMe
 ➜  ./install.sh --clang-completer
 ```
-copy ycm__extra__conf.py to your home folder to enable autocompleter.
+Copy `ycm__extra__conf.py` to your home folder to enable autocompleter.
 ```zsh
 ➜  cp ycm__extra__conf.py ~/.ycm__extra__conf.py
 ```
 
 ##Setting up gdb
-Copy gdbinit file to your home folder 
+`gdb` is a poweful disassembling tool in GNU/Linux. Copy `gdbinit` file to your home folder 
 ```zsh
 ➜  cp gdbinit ~/.gdbinit
 ```
 
 ##Setting up pythonrc
-Copy pythonrc file to your home directory
+Copy `pythonrc` file to your home directory not to display all the unwanted welcome messages
+upon opening a `python` interactive shell. 
 ```zsh
 ➜  cp pythonrc ~/.pythonrc 
 ```
 
 ##Tweaking git 
-Legit is a complementary command-line interface for Git, optimized for workflow simplicity. It is heavily inspired by GitHub for Mac.
+`Legit` is a complementary command-line interface for Git, optimized for workflow simplicity. It is heavily inspired by GitHub for Mac.
 
 You can read more about legit [here](http://www.git-legit.org/)
 ```zsh
