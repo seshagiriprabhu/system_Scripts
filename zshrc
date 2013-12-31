@@ -67,3 +67,11 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/g
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+#alias youtube-dl='youtube-dl -t -c --console-title --max-quality 18'
+  
+#export WORKON_HOME=/var/www/inctf-website/.virtualenvs
+#export PROJECT_HOME=/var/www/inctf-website
+#source /usr/local/bin/virtualenvwrapper.sh
+
+function gi() { curl http://gitignore.io/api/$@ ;}
+
