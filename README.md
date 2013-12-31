@@ -6,6 +6,7 @@ These are the steps required to tweak Ubuntu for making a better programming env
 
 Install zsh
 -----------
+Zsh is a shell designed for interactive use. It can be used as an alternative of default `bash`. 
 ```bash
  sudo apt-get install zsh
 ```
@@ -95,7 +96,7 @@ Legit is a complementary command-line interface for Git, optimized for workflow 
 
 Install legit
 -------------
-Assuming you have already install git. You can read more about leget [here](http://www.git-legit.org/)
+Assuming you have already install git. You can read more about legit [here](http://www.git-legit.org/)
 ```bash
 sudo apt-get install python-pip 
 pip install legit
