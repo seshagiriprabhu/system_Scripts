@@ -1,6 +1,6 @@
 Tweaking Ubuntu for programming
 ===============================
-These are the steps required to tweak Ubuntu for making a better programming environment. Assuming you have already install `git`.
+These are the steps required to tweak Ubuntu for making a better programming environment. Assuming that you have already install `git`.
 ##Setting up zsh
 Install zsh
 -----------
