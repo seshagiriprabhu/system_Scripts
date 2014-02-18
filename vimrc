@@ -62,7 +62,6 @@ filetype plugin indent on
 
     " Shortcut to toggle paste mode
     set pastetoggle=<F10>"
-
     " Enable incremental search
     set incsearch
 
@@ -143,7 +142,7 @@ filetype plugin indent on
     syntax enable
     set t_Co=256
     let g:solarized_termcolors=256
-    set background=dark
+"    set background=dark
     let base16colorspace=256
     colorscheme solarized
 " } Solarized theme configuration end
