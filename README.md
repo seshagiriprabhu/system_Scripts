@@ -37,7 +37,7 @@ You can choose a theme from `~/.oh-my-zsh/themes` and update in the `~/.zshrc`
 Install vim
 -----------
 Lets install the latest version of `vim` == 7.4.2
-(these steps are only required if you are not using latest Ubuntu (14.04))
+(the first two steps are only required if you are not using latest version of Ubuntu (14.04))
 ```zsh
 ➜  sudo add-apt-repository ppa:fcwu-tw/ppa
 ➜  sudo apt-get update
