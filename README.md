@@ -17,6 +17,7 @@ Oh-my-zsh
 ```
  To install custom plugins for ZSH
 ```bash
+➜  cd ~/.oh-my-zsh/ 
 ➜  git submodule update --init
 ```
 I have included a copy of my `zshrc` in this repo. You can copy it into your home folder
@@ -35,7 +36,8 @@ You can choose a theme from `~/.oh-my-zsh/themes` and update in the `~/.zshrc`
 ##Setting up vim
 Install vim
 -----------
-Lets install the latest version of `vim`.
+Lets install the latest version of `vim` == 7.4.2
+(these steps are only required if you are not using latest Ubuntu (14.04))
 ```zsh
 ➜  sudo add-apt-repository ppa:fcwu-tw/ppa
 ➜  sudo apt-get update
