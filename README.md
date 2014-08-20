@@ -58,8 +58,9 @@ Copy the `vimrc` file from this repo to home folder.
 open `vim` and type `y` to install the plugins mentioned in the `vimrc`.
 Install YouCompleteMe 
 ---------------------
-An autocompleter for vim. Lets compile it.
+An autocompleter for vim. Lets compile it. You may have to install a dependency `cmake`,
 ```zsh
+➜  sudo apt-get install cmake
 ➜  cd ~/.vim/bundle/YouCompleteMe
 ➜  ./install.sh --clang-completer
 ```
