@@ -1,11 +1,10 @@
-import sys, re
-import urllib2
-import requests, urllib3, socket
+import sys, re, requests
+import urllib2, urllib
 from BeautifulSoup import BeautifulSoup, SoupStrainer
 
 def download_file(url):
     try:
-        file_name = url.split('/')[-1]
+        file_name = urllib.unquote(url.split('/')[-1]).decode('utf8')
         u = urllib2.urlopen(url)
         f = open(file_name, 'wb')
         meta = u.info()
