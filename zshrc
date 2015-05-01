@@ -68,15 +68,3 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/g
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 alias youtube-dl='youtube-dl -t -c --console-title --max-quality 18'
-  
-export WORKON_HOME=/var/www/inctf-website/.virtualenvs
-export PROJECT_HOME=/var/www/inctf-website
-source /usr/local/bin/virtualenvwrapper.sh
-export TOSDIR=$TOSROOT/tos
-export CLASSPATH=$TOSROOT/support/sdk/java/tinyos.jar:.$CLASSPATH
-export MAKERULES=$TOSROOT/support/make/Makerules
-export PATH=/opt/msp430/bin:$PATH
-source /opt/tinyos-2.1.1/tinyos.sh
-
-
-function gi() { curl http://www.gitignore.io/api/$@ ;}
