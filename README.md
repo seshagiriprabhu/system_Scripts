@@ -11,9 +11,9 @@ sudo apt-get install zsh
 After installation, you could make `/usr/bin/zsh` as your default shell of terminal (make changes in the profile of your terminal)
 Oh-my-zsh
 ---------
-`oh-my-zsh` is an open source, community-driven framework for managing your ZSH configuration. Thanks to [Arvind](https://twitter.com/arvindsraj) for creating a custom zsh theme.
+`oh-my-zsh` is an open source, community-driven framework for managing your ZSH configuration. Thanks to robbyrussel for maintaining the repository
 ```bash
- curl -L https://raw.github.com/arvindsraj/oh-my-zsh/master/tools/install.sh | sh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
  To install custom plugins for ZSH
 ```bash
@@ -24,7 +24,7 @@ I have included a copy of my `zshrc` in this repo. You can copy it into your hom
 ```zsh
 cp zshrc ~/.zshrc
 ```
-I have made litte changes in arvindsrajtheme.zsh, if you don't like the default one, you could use my modified one:
+I have made litte changes in `arvindsrajtheme.zsh`, if you don't like the default one, you could use my modified one:
 ```zsh
 cp arvindsraj.zsh-theme ~/.oh-my-zsh/themes/   
 ```
