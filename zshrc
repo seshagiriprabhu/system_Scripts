@@ -67,4 +67,13 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/g
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-alias youtube-dl='youtube-dl -t -c --console-title --max-quality 18'
+alias ydl-med='youtube-dl -t -c --console-title -f 18'
+alias ydl-best="youtube-dl -t -c --console-title -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
+
+
+# where to store our virtual envs
+export WORKON_HOME=$HOME/.virtualenvs
+# where projects will reside
+export PROJECT_HOME=$HOME/Projects-Active
+# where is the virtualenvwrapper.sh
+source /usr/local/bin/virtualenvwrapper_lazy.sh
