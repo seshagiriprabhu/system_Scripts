@@ -56,9 +56,9 @@ sudo apt-get install cmake build-essential python-dev python3-dev vim-nox
 cd ~/.vim/bundle/YouCompleteMe
 ./install.sh --clang-completer
 ```
-Copy `ycm__extra__conf.py` to your home folder to enable autocompleter.
+Copy `ycm_extra_conf.py` to your home folder to enable autocompleter.
 ```zsh
-cp ycm__extra__conf.py ~/.ycm__extra__conf.py
+cp ycm_extra_conf.py ~/.ycm_extra_conf.py
 ```
 ##Setting up gdb
 `gdb` is a poweful disassembling tool in GNU/Linux. Copy `gdbinit` file to your home folder 
