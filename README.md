@@ -52,7 +52,7 @@ Install YouCompleteMe
 ---------------------
 An autocompleter for vim. Lets compile it. You may have to install a dependency `cmake`,
 ```zsh
-sudo apt-get install cmake
+sudo apt-get install cmake build-essential python-dev python3-dev vim-nox
 cd ~/.vim/bundle/YouCompleteMe
 ./install.sh --clang-completer
 ```
