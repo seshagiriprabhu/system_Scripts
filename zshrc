@@ -51,7 +51,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/opt/msp430/bin:/opt/msp430/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/opt/msp430/bin:/opt/msp430/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/seshagiri/installed_apps/ctf-tools/bin:"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # # Preferred editor for local and remote sessions
@@ -67,8 +67,8 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/g
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-alias ydl-med='youtube-dl -t -c --console-title -f 18'
-alias ydl-best="youtube-dl -t -c --console-title -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
+alias ydl-med="youtube-dl -o '%(title)s.%(ext)s' -f 18 --restrict-filenames"
+alias ydl-best="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best' -o '%(title)s.f%(format_id)s.%(ext)s' --restrict-filenames"
 
 
 # where to store our virtual envs
