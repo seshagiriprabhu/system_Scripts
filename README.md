@@ -6,7 +6,7 @@ Install zsh
 -----------
 zsh is a shell designed for interactive use. It can be used as an alternative of default `bash`. 
 ```bash
-sudo apt-get install zsh
+sudo apt-get install zsh curl
 ```
 After installation, you could make `/usr/bin/zsh` as your default shell of terminal (make changes in the profile of your terminal)
 Oh-my-zsh
@@ -33,7 +33,11 @@ You can choose a theme from `~/.oh-my-zsh/themes` and update in the `~/.zshrc`
 Install vim
 -----------
 ```zsh
-sudo apt-get install vim
+sudo apt-get install vim python-autopep8 python-pip
+sudo pip install yapf
+sudo pip install futures
+sudo pip install mccabe
+sudo pip install frosted
 ```
 Setting up Neobundle
 --------------------
@@ -75,6 +79,5 @@ cp pythonrc ~/.pythonrc
 `Legit` is a complementary command-line interface for Git, optimized for workflow simplicity. It is heavily inspired by GitHub for Mac.
 You can read more about legit [here](http://www.git-legit.org/)
 ```zsh
-sudo apt-get install python-pip 
 pip install legit
 ```

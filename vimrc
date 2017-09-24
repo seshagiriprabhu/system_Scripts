@@ -36,6 +36,8 @@ NeoBundle 'vim-scripts/SudoEdit.vim'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'roman/golden-ratio'
 NeoBundle 'bling/vim-airline'
+NeoBundle 'andviro/flake8-vim'
+
 set noshowmode
 set laststatus=2
 call neobundle#end()
@@ -152,6 +154,35 @@ filetype plugin indent on
 " } C configuration end
 
 " Python configuration start {
+    
+    " Auto-check file for errors on write:
+    let g:PyFlakeOnWrite = 1
+    
+    " List of checkers used
+    let g:PyFlakeCheckers = 'pep8,mccabe,frosted'
+   
+    " Default maximum complexity for mccabe
+    let g:PyFlakeDefaultComplexity=10
+
+    " List of disabled pep8 warnings and errors:
+    " let g:PyFlakeDisabledMessages = 'E501'
+    
+    " Default aggressiveness for autopep8
+    let g:PyFlakeAggressive = 0
+
+    " Default height of quickfix window:
+    let g:PyFlakeCWindow = 6 
+
+    " Whether to place signs or not:
+    let g:PyFlakeSigns = 1 
+    let g:PyFlakeSignStart = 1
+
+    " Maximum line length for PyFlakeAuto command
+    let g:PyFlakeMaxLineLength = 100
+
+    " Visual-mode key command for PyFlakeAuto
+    let g:PyFlakeRangeCommand = 'Q'
+
 
     autocmd FileType python setlocal linebreak smartindent
 
