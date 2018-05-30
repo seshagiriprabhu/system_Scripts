@@ -58,7 +58,7 @@ An autocompleter for vim. Lets compile it. You may have to install a dependency 
 ```zsh
 sudo apt-get install cmake build-essential python-dev python3-dev vim-nox
 cd ~/.vim/bundle/YouCompleteMe
-./install.sh --clang-completer
+./install.py --clang-completer
 ```
 Copy `ycm_extra_conf.py` to your home folder to enable autocompleter.
 ```zsh
@@ -79,5 +79,6 @@ cp pythonrc ~/.pythonrc
 `Legit` is a complementary command-line interface for Git, optimized for workflow simplicity. It is heavily inspired by GitHub for Mac.
 You can read more about legit [here](http://www.git-legit.org/)
 ```zsh
-pip install legit
+sudo -H pip install legit
+legit --install
 ```
