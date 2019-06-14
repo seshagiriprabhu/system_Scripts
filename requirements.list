@@ -1,0 +1,12 @@
+git
+python-dev
+build-essential
+vim-nox
+zsh
+curl
+python-pip
+python-autopep8
+python3-dev
+cmake
+gcc
+g++
