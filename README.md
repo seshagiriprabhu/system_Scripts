@@ -62,7 +62,7 @@ NeoBundle is a Vim plugin manager.
 ```zsh
 mkdir -p ~/.vim/bundle
 cd ~/.vim/bundle
-git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+git clone https://github.com/Shougo/neobundle.vim.git ~/.vim/bundle/neobundle.vim
 ```
 Copy the `vimrc` file from this repo to home folder.
 ```zsh
