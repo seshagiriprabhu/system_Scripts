@@ -12,16 +12,9 @@ alias l='ls -CF'
 # time that oh-my-zsh is loaded.
 ZSH_THEME="arvindsraj"
 
-alias ydl-med="youtube-dl -o '%(title)s.%(ext)s' -f 18 --restrict-filenames"
-alias ydl-best="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best' -o '%(title)s.f%(format_id)s.%(ext)s' --restrict-filenames"
-
-
-# where to store our virtual envs
-export WORKON_HOME=$HOME/.virtualenvs
-# where projects will reside
-export PROJECT_HOME=$HOME/Projects-Active
-# where is the virtualenvwrapper.sh
-source /usr/local/bin/virtualenvwrapper_lazy.sh
+# Added for ubuntu 22.04 LTS and later editions
+alias python="python3"
+alias pip="python3 -m pip"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
