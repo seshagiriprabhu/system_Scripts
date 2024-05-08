@@ -46,6 +46,13 @@ cp arvindsraj.zsh-theme ~/.oh-my-zsh/themes/
 ```
 You can choose a theme from `~/.oh-my-zsh/themes` and update in the `~/.zshrc`
 
+### Install auto suggestions and highlight
+
+```bash
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+```
+
 You could make `/usr/bin/zsh` as your default shell of terminal (make changes
 in the profile of your terminal)
 
@@ -76,34 +83,10 @@ Copy `ycm_extra_conf.py` to your home folder to enable autocompleter.
 cp ycm_extra_conf.py ~/.ycm_extra_conf.py
 ```
 
-## Setting up gdb
-`gdb` is a poweful disassembling tool in GNU/Linux. Copy `gdbinit` file to your
-home folder
-```zsh
-cp gdbinit ~/.gdbinit
-```
-
 ## Setting up pythonrc
 Copy `pythonrc` file to your home directory not to display all the unwanted
 welcome messages
 upon opening a `python` interactive shell.
 ```zsh
 cp pythonrc ~/.pythonrc
-```
-
-## (Optional) Installing some of Python packages
-`ipython`, `youtube-dl`, `legit`, `pep8` are some of the python packages which
-may be helpful for daily use. All of them are compiled in `requirements.txt`
-file.
-
-```bash
-sudo -H pip install -r requirements.txt
-```
-
-## Tweaking git
-`Legit` is a complementary command-line interface for Git, optimized for
-workflow simplicity. It is heavily inspired by GitHub for Mac.
-You can read more about legit [here](http://www.git-legit.org/)
-```zsh
-legit --install
 ```
