@@ -76,7 +76,7 @@ dependency `cmake`,
 ```zsh
 sudo apt-get install cmake build-essential python-dev python3-dev vim-nox
 cd ~/.vim/bundle/YouCompleteMe
-./install.py --clang-completer
+python3 install.py --all --verbose
 ```
 Copy `ycm_extra_conf.py` to your home folder to enable autocompleter.
 ```zsh
